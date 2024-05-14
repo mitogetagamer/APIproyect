@@ -1,10 +1,12 @@
-<main>Val agents</main>
-
-
-
+<header class="title">
+    <h1 >Valorant Agents</h1>
+</header>
+  
 <main class="container d-flex flex-wrap justify-content-center gap-5">
    @for(elemento of Losdatos; track elemento.fullPortraitV2){
-       <div class="card" style="width: 18rem;">
+    
+    <div class="card" style="width: 18rem;">
+        
            <img src="{{elemento.fullPortraitV2}}" class="card-img-top" alt="foto de {{elemento.displayName}}">
            <div class="card-body">
                <h5 class="card-title">{{elemento.description}}</h5>
@@ -16,7 +18,7 @@
 
     
    
-<footer></footer>
+
 <!--<router-outlet />-->
 
 

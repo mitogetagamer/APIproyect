@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.title{display: flex;
+justify-content: center;
+font-size: xx-large; }
+body{background-color: #68353F;}
+.card-img-top{background-color: #11212C ;
+    gap: 200px;}
+
+
+
